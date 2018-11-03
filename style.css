@@ -1,0 +1,134 @@
+#contenu {
+    display: Flex;
+    justify-content: space-around;
+    align-content: center;
+    text-align: center;
+}
+table {
+    border: black 2px;
+}
+
+
+
+
+
+
+
+
+
+body {
+    background-color: lemonchiffon;
+    background-image: url('background.jpg');
+    background-repeat: no-repeat;
+    background-size: auto;
+    margin: 0 auto;
+    color: white;
+}
+@media (max-width: 1080px) {
+    body {
+        background-image: url('background-mobile.jpg');
+        background-repeat: no-repeat;
+        background-size: auto;
+    }
+}
+h1 {
+    text-shadow: 1px 1px 3px blue;
+    font-size: 35px;
+}
+#resultat {
+    font-size: 20px;
+    text-align: center;
+}
+#champs {
+    border-radius: 5px;
+    background-color: aqua;
+    border: none;
+    width: 50%;
+    margin: 10px;
+    padding: 2rem;
+    font-size: 2rem;
+    color: violet;
+}
+.contenu {
+    display: Flex;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+}
+.contenu2 {
+    display: Flex;
+    justify-content: space-around;
+    align-content: center;
+    height: auto;
+    margin: 5px;
+    padding: 5px 0 5px 0;
+    background-color: aqua;
+    border: 2px solid orange;
+    width: 200px;
+    font: bold 13px Arial;
+    color: darkviolet;
+    box-shadow: 1px 1px 3px grey;
+}
+
+.contenu3 {
+    display: Flex;
+    justify-content: space-around;
+    align-content: center;
+    flex-direction: column;
+    height: 200px;
+    margin: 5px;
+    padding: 5px 0 5px 0;
+    background-color: aqua;
+    border: 2px solid orange;
+    width: 200px;
+    font: bold 13px Arial;
+    color: darkviolet;
+    box-shadow: 1px 1px 3px grey;
+}
+
+.bouton {
+    margin: 5px;
+    padding: 5px 0 5px 0;
+    background-color: aqua;
+    border: 2px solid orange;
+    width: 200px;
+    height: 75px;
+    font: bold 13px Arial;
+    color: darkviolet;
+    box-shadow: 1px 1px 3px grey;
+}
+.bouton:hover {
+    cursor: pointer;
+}
+.bouton:active {
+    background-color: orange;
+    border: 2px solid aqua;
+}
+
+.tours {
+    height: auto;
+}
+#global {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    display: none;
+}
+#start {
+    display: Flex;
+    justify-content: center;
+    justify-items: center;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    margin: 200px;
+}
+#bon {
+    color: green;
+}
+#pasbon {
+    color: red;
+}

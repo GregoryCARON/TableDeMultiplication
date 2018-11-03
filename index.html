@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1"/>
+        <title>Ton Compte Est Bon !</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+        <body>
+        <div id="global">
+
+            <div class="contenu">
+
+                <h1>Ton Compte Est Bon !</h1>
+
+            </div>
+
+            <div class="contenu">
+
+                <p>&emsp;La règle est simple : Répondez aux calculs de multiplication. Bonne chance !</p>
+
+            </div>
+            <div id="contenu">
+
+                <h1 id="op"></h1>
+            </div>
+            <div class="contenu">
+
+                <input type="tel" id="champs" class="bouton" size="40" maxlength="3" placeholder="Entrez la bonne réponse" autofocus><br>
+
+            </div>
+
+
+            <div class="contenu">
+
+                <button id="btn" class="bouton">Jouer</button><button id="RaZ" class="bouton" onclick="zero()">RaZ</button>
+
+            </div>
+
+            <div class="contenu">
+
+                <div class="contenu2">
+
+                    <div id="resultat"></div>
+
+                </div>
+
+                <div class="contenu3">
+
+                    <div id="statut"></div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+        <div id="start"><button onclick="demarrer()" class="bouton">Démarrer</button></div>
+
+        <script src="script.js"></script>
+    </body>
+</html>
