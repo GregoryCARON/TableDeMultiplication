@@ -18,6 +18,7 @@ function generateNumb() {
     }
     if (document.getElementById('4').checked === true) {
         tabTable.push(4);
+        //
     }
     if (document.getElementById('5').checked === true) {
         tabTable.push(5);
