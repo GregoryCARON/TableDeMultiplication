@@ -61,20 +61,7 @@ function combien() {
     let rNum = fNum * sNum;
     let hNum = document.getElementById('champs').value;
     hNum = parseInt(hNum);
-<<<<<<< HEAD
-    if (Number.isInteger(hNum) === true){
-        if (document.getElementById('champs').value !== '') {
-            if (hNum === rNum) {
-                document.getElementById('resultat').innerHTML = document.getElementById('resultat').innerHTML + '<br><span id="bon">' + fNum + ' x ' + sNum + ' = ' + rNum + '</span>';
-                document.getElementById('statut').innerHTML = 'Gagné !';
-                fNum = generateNumb();
-                //fNum = Math.round(Math.random() * 10);
-                sNum = Math.round(Math.random() * 10);
-                document.getElementById('op').innerHTML = fNum + ' x ' + sNum;
-            } else {
-                document.getElementById('resultat').innerHTML = document.getElementById('resultat').innerHTML + '<br><span id="pasbon">' + fNum + ' x ' + sNum + ' = ' + hNum + '</span>';
-                document.getElementById('statut').innerHTML = 'Perdu !';
-=======
+
     if (document.getElementById('champs').value !== '') {
         if (!Number.isInteger(hNum)) {
             document.getElementById('champs').value = '';
@@ -89,11 +76,11 @@ function combien() {
         } else {
             document.getElementById('resultat').innerHTML = document.getElementById('resultat').innerHTML + '<br><span id="pasbon">' + fNum + ' x ' + sNum + ' = ' + hNum + '</span>';
             document.getElementById('statut').innerHTML = 'Perdu !';
->>>>>>> 57a4b2f61c0b5eb338cf3de385d8009656b623b2
+
 
             }
         }
-    }
+    
     document.getElementById('champs').value ='';
     document.getElementById('champs').focus();
 }
