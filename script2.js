@@ -42,5 +42,6 @@ function generateNumb() {
         alert('Sélectionne au moins une table !');
         retVal = 0;
     }
+    savePrefs();
     return retVal;
 }
