@@ -70,7 +70,7 @@ function combien() {
         if (hNum === rNum) {
             document.getElementById('resultat').innerHTML = document.getElementById('resultat').innerHTML + '<br><span id="bon">' + fNum + ' x ' + sNum + ' = ' + rNum + '</span>';
             document.getElementById('statut').innerHTML = 'Gagné !';
-            fNum = Math.round(Math.random() * 10);
+            fNum = generateNumb();
             sNum = Math.round(Math.random() * 10);
             document.getElementById('op').innerHTML = fNum + ' x ' + sNum;
         } else {
@@ -120,7 +120,8 @@ document.getElementById('boot').addEventListener('click', function() {
     demarrer();
 });
 document.getElementById('boot2').addEventListener('click', function() {
-    alert(calcul(5, 2, '0'));
+    //alert(calcul(5, 2, '0'));
+    alert(Math.round(24,5));
 });
 
 function calcul(num1, num2, calcType) {
