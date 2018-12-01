@@ -5,6 +5,7 @@ body {
     margin: 0 auto;
     color: white;
 }
+
 @media (max-width: 1080px) {
     body {
         background: lemonchiffon url('background-mobile.jpg') no-repeat fixed;
@@ -13,14 +14,17 @@ body {
         color: white;
     }
 }
+
 h1 {
     text-shadow: 1px 1px 3px blue;
     font-size: 35px;
 }
+
 #resultat {
     font-size: 20px;
     text-align: center;
 }
+
 #champs {
     border-radius: 5px;
     background-color: aqua;
@@ -31,12 +35,14 @@ h1 {
     font-size: 2rem;
     color: violet;
 }
+
 .contenu {
     display: Flex;
     justify-content: center;
     align-content: center;
     text-align: center;
 }
+
 .contenu2 {
     display: Flex;
     justify-content: space-around;
@@ -79,9 +85,11 @@ h1 {
     color: darkviolet;
     box-shadow: 1px 1px 3px grey;
 }
+
 .bouton:hover {
     cursor: pointer;
 }
+
 .bouton:active {
     background-color: orange;
     border: 2px solid aqua;
@@ -90,6 +98,7 @@ h1 {
 .tours {
     height: auto;
 }
+
 #global {
     position: absolute;
     top: 0;
@@ -98,6 +107,7 @@ h1 {
     right: 0;
     display: none;
 }
+
 #start {
     display: Flex;
     justify-content: center;
@@ -108,9 +118,11 @@ h1 {
     right: 0;
     margin: 200px;
 }
+
 #bon {
     color: green;
 }
+
 #pasbon {
     color: red;
 }
