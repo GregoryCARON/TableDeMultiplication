@@ -179,8 +179,10 @@ document.getElementById('boot').addEventListener('click', function () {
     loadPrefs();
     demarrer();
 });
-document.getElementById('boot2').addEventListener('click', function () {
-    alert(calcul(5, 2, '0'));
+
+document.getElementById('boot2').addEventListener('click', function() {
+    //alert(calcul(5, 2, '0'));
+    alert(Math.round(24,5));
 });
 
 function calcul(num1, num2, calcType) {
